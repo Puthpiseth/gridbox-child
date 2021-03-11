@@ -18,7 +18,9 @@
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
 			<div id="footer-text" class="site-info">
-				Created by Piseththeboss All rights reserved 2021
+			
+  				<?php echo get_theme_mod( 'gridbox_child_info_sponsor' ); ?>
+
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
